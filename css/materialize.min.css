@@ -10971,3 +10971,41 @@ button.picker__close:focus {
         margin-bottom: 5em
     }
 }
+
+.tag {
+    padding-bottom: 5px;
+    font-family: Arial;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-success {
+    background-color: #5cb85c;
+}
+
+.label-primary {
+    background-color: #337ab7;
+}
+
+.label-ssdd {
+    background-color: #E28711;
+}
+
+.label-ccc {
+    background-color: #E21168;
+}
+
+.label-cxx {
+    background-color: #BE2DEB;
+}
