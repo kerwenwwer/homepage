@@ -2591,7 +2591,7 @@ video.responsive-video {
 .breadcrumb i.material-icons {
     display: inline-block;
     float: left;
-    font-size: 24px
+    font-size: 24px;
 }
 
 .breadcrumb:before {
@@ -3207,7 +3207,6 @@ input[type=range]+.thumb {
 
 [class^="mdi-"],
 [class*="mdi-"] {
-    speak: none;
     display: inline-block;
     font-family: "Material-Design-Icons";
     font-style: normal;
@@ -3223,8 +3222,6 @@ input[type=range]+.thumb {
 [class^="mdi-"]:before,
 [class*="mdi-"]:before {
     display: inline-block;
-    speak: none;
-    text-decoration: inherit
 }
 
 [class^="mdi-"].pull-left,
@@ -3287,7 +3284,6 @@ input[type=range]+.thumb {
     top: 0;
     z-index: 1;
     display: inline-block;
-    speak: none;
     text-decoration: inherit
 }
 
@@ -6650,7 +6646,7 @@ input[type=range]+.thumb {
     width: 100%;
     margin-left: auto;
     left: auto;
-    right: auto
+    right: auto;
 }
 
 .row .col.offset-s1 {
@@ -6868,7 +6864,7 @@ input[type=range]+.thumb {
         width: 100%;
         margin-left: auto;
         left: auto;
-        right: auto
+        right: auto;
     }
     .row .col.offset-m1 {
         margin-left: 8.3333333333%
@@ -9105,10 +9101,10 @@ form p:last-child {
     height: 25px;
     line-height: 25px;
     font-size: 1rem;
-    -webkit-user-select: none;
+    /**-webkit-user-select: none;
     -moz-user-select: none;
     -khtml-user-select: none;
-    -ms-user-select: none
+    -ms-user-select: none*/
 }
 
 [type="checkbox"]+label:before {
