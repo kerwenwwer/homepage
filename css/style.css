@@ -9,10 +9,11 @@
  */
 
 body {
-    font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif, Microsoft JhengHei, 'Noto Sans TC';
     font-size: 13pt;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 .profile-section {
     background: #f7f7f7;
 }
