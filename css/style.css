@@ -9,7 +9,7 @@
  */
 
 body {
-    font-family: Palatino Linotype, Merriweather Sans, Helvetica,Roboto, sans-serif, Microsoft JhengHei, 'Noto Sans TC';
+    font-family: Palatino Linotype, Merriweather Sans, Helvetica, Roboto, sans-serif, Microsoft JhengHei, 'Noto Sans TC';
     font-size: 13pt;
 }
 
@@ -17,11 +17,11 @@ body {
 .profile-section {
     background: #f7f7f7;
 }
+
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 * {
-    font-family: 'Noto Sans TC', Merriweather Sans , Microsoft JhengHei;
+    font-family: 'Noto Sans TC', Merriweather Sans, Microsoft JhengHei;
 }
- 
 
 .news-section {
     background: #f7f7f7;
@@ -221,7 +221,7 @@ a {
 }
 
 a:hover {
-    color: #3366ff;
+    color: #161617;
 }
 
 .publication-hr {
