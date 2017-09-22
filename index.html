@@ -8,7 +8,7 @@
     <title>蔡闊光 | Kerwin Tsai </title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
     <!-- CSS  -->
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -83,7 +83,7 @@
                 <hr>
             </div>
 
-            <div class="row" >
+            <div class="row">
                 <p>
                     我是台中二中的高三學生蔡闊光,我的研究興趣包括,<b>前端工程和</b><b>機器學習</b>
 
@@ -262,7 +262,7 @@
                     <div class="date">Jun. 2017</div>
                     <div class="collapsible-header">
                         <i class="material-icons">supervisor_account</i>
-                        <a  target="blank">Kerwin</a>,<a target="blank">Bogay Chuang</a>,
+                        <a target="blank">Kerwin</a>,<a target="blank">Bogay Chuang</a>,
                         <a target="blank">吳秉澔</a>
 
                     </div>
@@ -400,16 +400,17 @@
     <script src="js/materialize.js"></script>
     <script src="js/materialize.min.js"></script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            offset: 200,
-            duration: 600,
-            easing: 'ease-in-sine',
-            delay: 100,
-        });
-    </script>
+
     <script>
         $(".button-collapse").sideNav();
+    </script>
+    <script>
+        $(document).ready(function() {
+            AOS.init();
+            $('.scrollspy').scrollSpy();
+            $('.parallax').parallax();
+            $(".button-collapse").sideNav();
+        })
     </script>
 
 
